@@ -8,9 +8,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { PizzaComponent } from './pizza/pizza.component';
 import { DrinkComponent } from './drink/drink.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
-  declarations: [AppComponent, ChickenComponent, HeaderComponent, PizzaComponent, DrinkComponent],
+  declarations: [AppComponent, ChickenComponent, HeaderComponent, PizzaComponent, DrinkComponent, HomepageComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
